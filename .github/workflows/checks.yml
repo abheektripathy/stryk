@@ -1,0 +1,66 @@
+name: Stryk checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  rust:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - run: rustup toolchain install 1.96.1 --profile minimal --component clippy,rustfmt --target wasm32-unknown-unknown
+      - run: rustup override set 1.96.1
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --locked --all-features --all-targets -- -D warnings
+      - run: cargo test --workspace --locked --all-features
+      - run: cargo clippy --locked -p stryk-web --all-features --target wasm32-unknown-unknown -- -D warnings
+      - run: cargo build --locked -p stryk-web --release --target wasm32-unknown-unknown
+
+  localnet:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - run: rustup toolchain install 1.96.1 --profile minimal
+      - run: rustup override set 1.96.1
+      - name: Install Agave
+        run: |
+          curl --fail --location --silent --show-error \
+            -o "$RUNNER_TEMP/agave.tar.bz2" \
+            https://github.com/anza-xyz/agave/releases/download/v3.1.14/solana-release-x86_64-unknown-linux-gnu.tar.bz2
+          printf '%s  %s\n' 06f97c065cc977cbec2f13ffc9bc9d3b92fef485431fcb370a269de69532ef51 "$RUNNER_TEMP/agave.tar.bz2" \
+            > "$RUNNER_TEMP/agave.sha256"
+          sha256sum -c "$RUNNER_TEMP/agave.sha256"
+          tar -xf "$RUNNER_TEMP/agave.tar.bz2" -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/solana-release/bin" >> "$GITHUB_PATH"
+      - run: cargo install --locked --git https://github.com/blueshift-gg/quasar --rev 37e8a6b48192cc44ab6c8b74cdd83d84c345575c quasar-cli
+      - run: bash scripts/generate-client.sh --check
+      - name: Build pinned Quasar program
+        run: |
+          # Quasar regenerates the lockfile if a manifest is newer.
+          touch Cargo.lock
+          quasar build
+          git diff --exit-code -- Cargo.lock
+      - run: quasar test --no-build
+      - run: bash scripts/local-smoke.sh timeout
+      - run: bash scripts/local-smoke.sh race
+      - run: bash scripts/local-smoke.sh admin
+      - run: docker build -t stryk:ci .
+      - run: bash scripts/local-smoke.sh rfq
+        env:
+          STRYK_SMOKE_POSTGRES_IMAGE: postgres:16.11-alpine
+          STRYK_SMOKE_SERVICE_IMAGE: stryk:ci
+      - run: bash scripts/local-smoke.sh recovery
+        env:
+          STRYK_SMOKE_POSTGRES_IMAGE: postgres:16.11-alpine
+          RUST_LOG: stryk_service=info
+      - run: bash scripts/local-smoke.sh drain
+        env:
+          STRYK_SMOKE_POSTGRES_IMAGE: postgres:16.11-alpine

@@ -1,0 +1,17 @@
+[project]
+name = "stryk"
+
+[toolchain]
+type = "solana"
+
+[testing]
+framework = "quasarsvm-rust"
+language = "rust"
+
+[testing.rust]
+framework = "quasarsvm-rust"
+test = { program = "bash", args = ["scripts/local-smoke.sh", "program"] }
+
+[clients]
+path = "target/client"
+languages = []

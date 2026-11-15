@@ -1,0 +1,24 @@
+[package]
+name = "stryk"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+doctest = false
+
+[features]
+alloc = []
+idl-build = ["quasar-lang/idl-build"]
+debug = ["quasar-lang/debug", "quasar-spl/debug"]
+
+[dependencies]
+stryk-core.workspace = true
+quasar-lang.workspace = true
+quasar-spl.workspace = true
+solana-instruction = { version = "3.4", features = ["syscalls"] }
+# Quasar's generated native client uses wincode 0.4 through zeropod.
+zeropod = "=0.3.3"
+
+[lints]
+workspace = true

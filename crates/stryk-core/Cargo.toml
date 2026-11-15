@@ -1,0 +1,8 @@
+[package]
+name = "stryk-core"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+sha2 = { version = "0.10.9", default-features = false }
+

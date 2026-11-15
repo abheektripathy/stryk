@@ -1,0 +1,21 @@
+[package]
+name = "stryk-fixture-receiver"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[features]
+alloc = []
+debug = ["quasar-lang/debug"]
+idl-build = ["quasar-lang/idl-build"]
+
+[dependencies]
+quasar-lang.workspace = true
+solana-instruction.workspace = true
+zeropod = "=0.3.3"
+
+[lints]
+workspace = true

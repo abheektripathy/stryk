@@ -1,0 +1,1100 @@
+{
+  "validator": "Agave 3.1.14 localnet",
+  "browser": {
+    "concurrent_same_origin_tabs": {
+      "writer": "2iXtA8oeZqUU5pofxK971TCEvFGfems2AcDRaZHKD2pQ",
+      "first_ticket": "1 SOL covered call at 151 USDC",
+      "second_ticket": "1 SOL cash-secured put at 149 USDC",
+      "first_tab_paused_at": "getLatestBlockhash before wallet review or submission",
+      "second_tab_busy_message": "This wallet is reviewing or checking a fill in another tab. Retry shortly.",
+      "second_tab_wallet_dialog": false,
+      "rpc_accepted_submissions": 2,
+      "distinct_accepted_signatures": 1,
+      "finalized_fill_count": 1,
+      "position": "EnBfdPsnsVuRkPYTDpvs1Vxjy7YvjH9AGNfHuEvDZisE",
+      "opened_signature": "3RatCgMG5UxAZb2FiEF6vYnX5mrMMJiefaqQuiAvQixJuTMFX3tv9eLb9GmYoHssSxvMNcv8eZnuA6aUPorQPq6b",
+      "premium_atoms": "2869000",
+      "verified_fix_atoms": "150000000",
+      "settled_signature": "Enu8KXVgmKGNwGFAivvKCqhPiCiTFx5yHyhgtkYuYLivP11LmsDNUSGs47b45JNX4dTtEJhZQW4EQ51X7fp6qdo",
+      "returned_collateral_atoms": "1000000000",
+      "outcome": "Expired"
+    },
+    "exact_width_call_layouts": {
+      "method": "DOM client and scroll widths measured inside a same-origin frame",
+      "disconnected_ticket_widths_px": [1440, 768, 390],
+      "quoted_ticket_widths_px": [1440, 768, 390],
+      "finalized_receipt_widths_px": [1440, 768, 390],
+      "horizontal_overflow": false
+    },
+    "dropped_submission_response": {
+      "status_sequence": [
+        "Submission uncertain",
+        "Confirmed",
+        "Finalized",
+        "Assigned"
+      ],
+      "signature_preserved_after_reload": true,
+      "finalized_fill_count": 1,
+      "position": "B6JBVTpCEXBj61iJF9jqCDML2sfA3YX1Bp7mKgszU9QW",
+      "opened_signature": "5nYTdQqV8nEDD4HzsKp2c5D8iSWQRa2NTyQFP8C2wiDJZmx9AEhzGwTvKDMffR88Ea5vssP2bv22WHu4upDeB2Mu",
+      "settled_signature": "349igbDEPVw1ZKGjzvwmetsp8sjbmjRrxM4kywBihsaEAKVRsmjSnqnWryTcT6ETFCGyRu1SnVy2muWcWQdk5N5S",
+      "premium_atoms": "2831000",
+      "verified_fix_atoms": "150000000",
+      "writer_settlement_usdc_atoms": "149000000"
+    },
+    "oracle_timeout": {
+      "status_sequence": [
+        "Active",
+        "Awaiting expiry fix",
+        "Ready to settle",
+        "Refunded after oracle timeout"
+      ],
+      "position": "AQ2R1N7SY5J836PrzQjC2gx5QeZTxrKbDbnJHWM7ok8s",
+      "opened_signature": "JvadnPWLMr79jvyqk68jY4RAizHRDjLxavcQPu8PP8K5AZDWi49GkaeG127Lk127VHhmricvMcmXiJjFRqigWKz",
+      "settled_signature": "4Z1Tu5GBL3sZUqa2JwFVpQSxJANgcXMCb13MCQHB5sgj1jnb5cRhJ5xNU5yeYaaJYWDs13ikgmun2S9U9qBkp5hW",
+      "premium_atoms": "2831000",
+      "writer_settlement_usdc_atoms": "149000000"
+    },
+    "entry_spot": {
+      "position": "Cac4KWD23zsWP9Rf9Uue1wTrCLFoGEeFGKXgfNvGYJeZ",
+      "opened_signature": "4NDvi18aJk4DiM1xTpTthSkv5E8x9Wooe7w5eWsns3VnUQFM9N7cJj7SdJnB5NZyUjUqXofJMid4cGYqgq2WJWwZ",
+      "quote_and_receipt_spot_atoms": "150000000",
+      "quote_and_receipt_observed_at_utc": "2026-11-13T21:43:02Z",
+      "receipt_term_return_percent": "1.91"
+    },
+    "finalized_position_link": {
+      "position": "DDiQongMhiEjeJatQ176bQgPCsTx4wig3FW2bWLFKmsE",
+      "opened_signature": "22GQhPzHKTeBgUJgDEFnGCuFhCXV64ss4VCWMYUj9cqE4bz31qW682Cbt5i3Xmg2dCuK4q6grdyvZCA42E8doqfR",
+      "premium_atoms": "2869000",
+      "link_visible_before_finality": false
+    },
+    "mobile_capture_put": {
+      "layout_width_px": 393,
+      "horizontal_overflow": false,
+      "position": "6TQRFpuh3YvjxAxoLcHhHEqBCr13XjUa8QfpYxJwqJUq",
+      "opened_signature": "3nPsdnAp9ttahWYDDJYsEwUEaREip1WZ7bgw9RBW66oFGHGKBnc8M5cK46bXWmwx7VqZKD2xVHxjJkUy983b9X7D",
+      "fix_signature": "cWNqzPhBAEWUTTSZGAwR8vfhDbLWkna9BqjdzyR3pegAUZapoFXWR2rvGJZQyHabW5pNNskZZj587MD7gUymsP4",
+      "settled_signature": "5M53WpwD3PfxmxBz8rQAyt1y7PybbFSW6D4pH6ZU7vwuWEBGrfYudUsYAfUGH1g49mp8tpQ1igJ8eRgBK999YNyB",
+      "premium_atoms": "2831000",
+      "verified_fix_atoms": "150000000",
+      "returned_collateral_atoms": "149000000",
+      "outcome": "Expired",
+      "portfolio_as_of_slot": 447
+    },
+    "oracle_timeout_balance_and_recovery": {
+      "market": "BV4ykgE2RRovU1nh1rYbyN33Tg5RAfG3VvKe2rBem6pX",
+      "expiry": "GtAxAScTBzfX9qYddttXcjNMBqohG3hXvxKUGfskkaCP",
+      "expires_at": 1794609396,
+      "writer": "2iXtA8oeZqUU5pofxK971TCEvFGfems2AcDRaZHKD2pQ",
+      "winning_maker": "9jN8i7tmLbsNhPfHWcWb2jAjSXsoJRe8c5bHYCUDjq6p",
+      "winning_maker_lane": "5rNZWurQNgXQHa8u9NT2QE1zbGpUBQqWtX93yxJ1tUqn",
+      "quote_mint": "8Tb1MGkJiNTQcJwDDV1T5eZxBxDoz72hcTe2MCJZabsS",
+      "positions": {
+        "covered_call": {
+          "address": "8aB8fWFKjjcoYAD4SEh8xjCmkCbJyeF1mHGZca19EoX5",
+          "strike_atoms": 151000000,
+          "quantity_atoms": 1000000000,
+          "premium_atoms": 2869000,
+          "fill_signature": "5Q6UhMQEWnWZqb7WTHyyUT5RSHh6pWtP6SqW21nnCfp9CC6KGkpwP9dKST2N7BYDqTQV5oXzrE6znERT539xQiWk",
+          "fill": {
+            "slot": 85,
+            "fee_lamports": 10000,
+            "compute_units": 110520,
+            "delta": {
+              "writer": {
+                "wsol_atoms": -1000000000,
+                "usdc_atoms": 2869000
+              },
+              "maker": {
+                "wsol_atoms": 0,
+                "usdc_atoms": -153869000
+              },
+              "escrow": {
+                "wsol_atoms": 1000000000,
+                "usdc_atoms": 151000000
+              }
+            }
+          },
+          "rfq_id": "247422142994901921606131572873703749601",
+          "settlement_signature": "26mJgSCLG9tQusD5esCXqeJbnJBbywvqh3Dgrt3nyrnzEuXF3nFi7iWrnq6hZPUw2hqiTer8rvdYBrGxtPn86R2W",
+          "settlement_slot": 460,
+          "rebuilt_outcome": "Refunded after oracle timeout"
+        },
+        "cash_secured_put": {
+          "address": "6WwHYrbiEAr3qEqNwBBMx4nbfWWrnbRFxF5AuKi3xgNE",
+          "strike_atoms": 149000000,
+          "quantity_atoms": 1000000000,
+          "premium_atoms": 2831000,
+          "fill_signature": "4WcQHpFRRcdy71CNPVZ4qa6NEEFM12gVNtxbNNbnbEkkfK5YdYpBrbY26Q2cm7wkt96gztUtfQmSUx27UC1xPtfa",
+          "fill": {
+            "slot": 136,
+            "fee_lamports": 10000,
+            "compute_units": 117243,
+            "delta": {
+              "writer": {
+                "wsol_atoms": 0,
+                "usdc_atoms": -146169000
+              },
+              "maker": {
+                "wsol_atoms": -1000000000,
+                "usdc_atoms": -2831000
+              },
+              "escrow": {
+                "wsol_atoms": 1000000000,
+                "usdc_atoms": 149000000
+              }
+            }
+          },
+          "rfq_id": "105430236809307673844607637725142659423",
+          "settlement_signature": "5pXTgoHcEiEAnRn3Hu1uhxHxkJJByhSUiBsdwtB24H393bV5acBZ9WSBWHENrc498Tq3FmZoZ6EYW9vYzgMELnPs",
+          "settlement_slot": 460,
+          "rebuilt_outcome": "Refunded after oracle timeout"
+        }
+      },
+      "timeout_signature": "5qN5zWzp8Vwx9CA2skh5nhqarqsi9ymKXAqpQ2hqWaaosA6syhCMxv4o3eT725df7z3h4ExZ9khpKrKkPDgjFLhM",
+      "timeout_slot": 426,
+      "fix_window_seconds": 31,
+      "validator_resumed_after_submission": true,
+      "refund_signatures_observed_finalized_at_slot": 521,
+      "expiry_state": {
+        "status": 2,
+        "fix": null
+      },
+      "writer_final_balances_atoms": {
+        "usdc": 10005700000,
+        "wsol": 10000000000
+      },
+      "maker_final_wallet_balances_atoms": {
+        "wsol": 11000000000,
+        "usdc": 5151000000
+      },
+      "maker_final_lane_balances_atoms": {
+        "wsol": 9000000000,
+        "usdc": 4843300000
+      },
+      "escrow_token_accounts_closed": true,
+      "pending_oracle_metrics": {
+        "pending_fixes": 1,
+        "next_fix_deadline_seconds": 31,
+        "no_fix_expiries": 0,
+        "oldest_unsettled_seconds": 0,
+        "settlement_scan_healthy": 1
+      },
+      "settled_oracle_metrics": {
+        "pending_fixes": 0,
+        "next_fix_deadline_seconds": 0,
+        "no_fix_expiries": 1,
+        "oldest_unsettled_seconds": 0,
+        "settlement_scan_healthy": 1
+      },
+      "rebuilt_portfolio": {
+        "as_of_slot": 533,
+        "income_atoms": "5700000",
+        "position_count": 2,
+        "signature_metadata_available": false
+      }
+    },
+    "recovery_after_pending_record_cleanup_change": {
+      "position": "BpNt2waE8r8S71wc9y1hoxbwDwUqubwFgDEG9q6JoiX8",
+      "opened_signature": "2tR3dTVp2DVCj2ainDHtbS6UaSGD2EifavJSbaXD2fn3mdLbde5eVcxvJu7Y3bCbpUHcB7g6R1tNE8TmNw6A5JnT",
+      "signature_preserved_through_reload_and_wallet_reconnect": true,
+      "portfolio_positions": 1,
+      "premium_atoms": "2869000",
+      "first_submission_response": "dropped after forwarding to Solana",
+      "receipt_slot": 117,
+      "web_wasm_sha256": "640efca2e6484c6fe1a626eb47579fbe6f76bff3a154ad694cdb3014de9f0b01",
+      "settled_signature": "3NsLmz9y6zkqYsNY8WHEwZsVqgBwq2uxEbgbbSfUAvvUFxEjqz2Kozgt2ZrA9LkWB8RNiXqTmSQL8QGHZD1FnvpB",
+      "verified_fix_atoms": "150000000",
+      "outcome": "Expired"
+    }
+  },
+  "portfolio_recovery": {
+    "after_rpc_outage_and_service_restart": {
+      "income_atoms": "5700000",
+      "positions": [
+        {
+          "address": "3S6QHLKLAm5ndZXS2s5zquZvFwgnRx69QqH2g7UJtsN7",
+          "kind": 1,
+          "outcome": 2,
+          "premium": "2850000",
+          "strike": "150000000",
+          "quantity": "1000000000",
+          "opened_signature": "3RNgBK8DGotvo5x8gvbB5CkiXRQNT6gRXKGuGVwwwjRgEEvjSw968JqM4umEzTgWKFmn4QXGnuUpyLcUrepzxDcc",
+          "settled_signature": "3zLRjEiBiEzZ5fC7Q2RzGzCnc7RWQnq5bFGvFk3bEoS5qoh7ihNkywf9sp6Znnu8P7Ko3FcGTGNbUUWrGrLsYiaq",
+          "entry_spot": {
+            "price": "150000000",
+            "observed_at": 1794606938
+          }
+        },
+        {
+          "address": "9nvbS2jGnbK1eGNivM9nCzrAgTzELFkyaVK4p9zi1aco",
+          "kind": 0,
+          "outcome": 2,
+          "premium": "2850000",
+          "strike": "150000000",
+          "quantity": "1000000000",
+          "opened_signature": "5X4JJ2F3pWz9Ymiu8eRiCarm5hdddvdpm7T3w3dPBh3efbg1hm4dEDK9cZZ3vESQtcvbFMAMQeT45RVKdP5xWDZb",
+          "settled_signature": "cyfxCExr5Dn3qDeHftfGg472eVaw4GdMeWN25KnAm7uDJX2EXgUFGWtYLhY119fpiHBz3Tp3G4Bj1Uoo5vLCntV",
+          "entry_spot": {
+            "price": "150000000",
+            "observed_at": 1794606933
+          }
+        }
+      ]
+    },
+    "fresh_postgres_rebuild_matches": true,
+    "fresh_rebuild_entry_spot_available": false,
+    "during_rpc_outage_metrics": {
+      "stryk_rpc_rate_limited_total": 0,
+      "stryk_rfq_rejected_capacity_total": 0,
+      "stryk_rfq_quoted_total": 1,
+      "stryk_rfq_no_quote_total": 0,
+      "stryk_maker_subscriptions": 3,
+      "stryk_receipt_scan_healthy": 0,
+      "stryk_finalized_slot": 47,
+      "stryk_receipt_scan_slot": 40,
+      "stryk_latest_program_signature_slot": 40,
+      "stryk_receipt_scan_slot_lag": 0,
+      "stryk_oldest_unsettled_seconds": 0,
+      "stryk_settlement_scan_healthy": 0,
+      "stryk_settlement_failed_total": 0
+    },
+    "after_settlement_metrics": {
+      "stryk_rpc_rate_limited_total": 0,
+      "stryk_rfq_rejected_capacity_total": 0,
+      "stryk_rfq_quoted_total": 0,
+      "stryk_rfq_no_quote_total": 0,
+      "stryk_maker_subscriptions": 0,
+      "stryk_receipt_scan_healthy": 1,
+      "stryk_finalized_slot": 156,
+      "stryk_receipt_scan_slot": 154,
+      "stryk_latest_program_signature_slot": 154,
+      "stryk_receipt_scan_slot_lag": 0,
+      "stryk_oldest_unsettled_seconds": 0,
+      "stryk_settlement_scan_healthy": 1,
+      "stryk_settlement_failed_total": 0
+    }
+  },
+  "auction": {
+    "postgres_quote_spot_persistence": true,
+    "service_rss_kib": {
+      "baseline": 16784,
+      "peak": 22064
+    },
+    "normal": {
+      "failed": 0,
+      "over_capacity": 0,
+      "p50_ms": 2054,
+      "p95_ms": 2056,
+      "quoted": 1000,
+      "rate": 100,
+      "requests": 1000,
+      "seconds": 10,
+      "wall_ms": 12049
+    },
+    "overload": {
+      "failed": 0,
+      "over_capacity": 2720,
+      "p50_ms": 2053,
+      "p95_ms": 2056,
+      "quoted": 1280,
+      "rate": 400,
+      "requests": 4000,
+      "seconds": 10,
+      "wall_ms": 10700
+    },
+    "metrics": {
+      "stryk_rpc_rate_limited_total": 0,
+      "stryk_rfq_rejected_capacity_total": 2720,
+      "stryk_rfq_quoted_total": 2280,
+      "stryk_rfq_no_quote_total": 0,
+      "stryk_maker_subscriptions": 3,
+      "stryk_receipt_scan_healthy": 1,
+      "stryk_finalized_slot": 68,
+      "stryk_receipt_scan_slot": 33,
+      "stryk_latest_program_signature_slot": 33,
+      "stryk_receipt_scan_slot_lag": 0,
+      "stryk_oldest_unsettled_seconds": 0,
+      "stryk_settlement_scan_healthy": 0,
+      "stryk_settlement_failed_total": 0
+    }
+  },
+  "maker_notifications": [
+    {
+      "address": "AQbkpBrJ4vw3q3rkP3EKHx4ft2rKj9QEdYTmWbiRbwdv",
+      "opened_signature": "5DiPwHEiFBKTKFE9idi67yXRBBSgKRgKgnZQRdaDxNhB4CDpQR5HgyCmeVjuwH1NPWYJDsfcrhj1fwN5zcL5LYdm"
+    },
+    {
+      "address": "9PD2abLvTf4c7j6MYtn4DbM3wzBtWBNwj2JATbqMUyTV",
+      "opened_signature": "5iE2crtQU8KgcmfqmRrLinYaSUkRmBJYDsebg5W24b1ZD5JmS2orQ9PBmLB4xHxAH24e2Qzvy6YEYEvGHpGvBUFF"
+    }
+  ],
+  "unregistered_lane_rejections": 2,
+  "admin_weekly_market": {
+    "market": {
+      "address": "82oftZLWFB8ykA9Ry1n1j9iQ3fV4r4Fn7yUZUmTVSjAr",
+      "signature": "53be4JvmhcSsZ1pajSYRMkqfTQuYDbKZ6nNHf37RNapQCcPraEvfUuR5ucwdasoGnMAo6gyAboPFWWaqFYKSaDf3"
+    },
+    "expiry": {
+      "address": "85xDb5VngNCG3PwYQCfBzXM1pfJU84a3iJ5Wp8C2PJ72",
+      "signature": "seTTxo7ezoohCsRyrRwDcAYcdD845p5ZoY1sikZrAmzK71xb2Vn3rNjfJac26oECJUJLefjAWxjgRkHxHKE2qsu"
+    },
+    "lane": {
+      "address": "5yAgyYedPiWHvFvdSXoGkpoaGgLiEWSDtx2BJYpUBevz",
+      "signature": "3UkCMRtfN1pTAzgHuQ6jFxzYfm9nNCJGokcSczpLjvNTiDEfznJSqrkPn1dAY9C5HNSR6qzcx5WngnQ9z1HjGL4w"
+    },
+    "capacity": {
+      "address": "GMRWixDuAmwghJ3PQ1sagX8FrwsktbpAkoGEXz5DQju2",
+      "signature": "RmhcPSZGvntXzAi8cgqCyPmMHCPoBgLvQUuVSnmArpFSpHMKVQKh5zb5KRj21YcWYsf6WoH7vQew78xAXCRrfjY"
+    },
+    "disabled": {
+      "address": "5yAgyYedPiWHvFvdSXoGkpoaGgLiEWSDtx2BJYpUBevz",
+      "signature": "rV4Xnz2ZtLD548oe7Qntyx2kf8DdpRTbWAuSNDAzMX2E552dM193owbmY4nktEx14T44hmjgQ3YWkbntkzPBtXz"
+    },
+    "enabled": {
+      "address": "5yAgyYedPiWHvFvdSXoGkpoaGgLiEWSDtx2BJYpUBevz",
+      "signature": "2Kdr1ZaQYMmMMbnvXYioWm8LdE8xTZ5arL9PEQE6C5NTedcDwsNy1Ew9W4gaUzSdmeyezxZ5745i5k1t9CaYGwbS"
+    },
+    "paused": {
+      "address": "82oftZLWFB8ykA9Ry1n1j9iQ3fV4r4Fn7yUZUmTVSjAr",
+      "signature": "4vsV8RpMjWt1VbH1xbigEdPzSfNGVw4FBMyjdiwhc1eBRnE5LGqrqUTrwZhZAwV1y6M2imgs468cPJBor1gwaZTy"
+    },
+    "resumed": {
+      "address": "82oftZLWFB8ykA9Ry1n1j9iQ3fV4r4Fn7yUZUmTVSjAr",
+      "signature": "52tAMTgedhnHeKoQS9h8DQ7nke7y3udknAkffHb1zidN9AoNTfi4uh5Y5jnyVojuKGhkyetFbFAgeZgoDMoKBUu3"
+    },
+    "misaligned_expiry_rejected": true,
+    "capacity_limit_atoms": "3000000000"
+  },
+  "maker_protocol_version": 1,
+  "service_cluster_rejects_mainnet_rpc_when_configured_for_devnet": true,
+  "funding_race_requote": {
+    "signature": "62iyrFGXkZ4acKwhTFE2pDUbdSMu4bbtNp5YwLNUaCRvGieGZZNePJDYKNPVsEauRkcgYjNvuHZFZBxj819Ze5Yp",
+    "confirmation_ms": 518,
+    "failed_position_absent": true,
+    "strike_atoms": "140000000",
+    "quantity_atoms": "1000000000",
+    "premium_atoms": "6000000"
+  },
+  "release_image": {
+    "id": "sha256:d6601031eb59ec7aa8b006053ee48f3cc3450e18e5e32e0b44f31a611cc9f692",
+    "platform": "linux/arm64",
+    "uid": 65532,
+    "browser_route_and_wasm_served": true,
+    "wasm_sha256": "010be549c813af50ca65643e0224b69f32338355c7c80d96b8504c3e56b0a8bc",
+    "fixture_fix_signature": "jcpbJZDjwtK7Ts8HVnjXN814ABXiGkc7CrofppX2r2rWFCi5NgP6qnmGzQ1aGa4ZY6ycWCa4GSsFQ4UhxQULXA5",
+    "premium_atoms": "5700000",
+    "positions": [
+      {
+        "address": "AZmJs8dA8spLsvCZUyjjjSNPjGVeFoEUb5H9yR2ti757",
+        "kind": 1,
+        "outcome": 2,
+        "premium": "2850000",
+        "opened_signature": "22sERzw2wdjPnd4Aj5efC9xnjVDt7QzqSaRQC35CpVaQXt463x9B7Qi3wNvRXoNs7D74TsmQ8cqY4eTCdxa4mibY",
+        "settled_signature": "3WeaiFGnPX5anfAQgZ3kZzR6wv5UCDybU77V6ZYdHcpG19bC68GRw7voEuogh6ZCTaCVNGTMhZSbbWFe5n5nrtH3",
+        "entry_spot": {
+          "price": "150000000",
+          "observed_at": 1794610106
+        }
+      },
+      {
+        "address": "GKS24PrKM4VTmvva97koXrxsenaUTAt7KFpJEqiqw9Zf",
+        "kind": 0,
+        "outcome": 2,
+        "premium": "2850000",
+        "opened_signature": "631pNfgoZthFhA4PCgqHbkqkSHWLi2kBNJPdDsqsHuXh1cYv7ZnM7a8BGujf1HVCf5znzzGAzpTbnS6PvFhpiFMj",
+        "settled_signature": "4dszcPXAqB6Fk7wZbQq6YJ1NWrzQSHY2dD68f2Gq4TyJQrjygqao4LuEurCGbxTBtJ3jLqhWNTrMLkCyaQ57FU9W",
+        "entry_spot": {
+          "price": "150000000",
+          "observed_at": 1794610103
+        }
+      }
+    ]
+  },
+  "ci_release_verification": {
+    "workflow_lint": {
+      "tool": "actionlint 1.7.12",
+      "result": "passed"
+    },
+    "agave_linux_x86_64_archive": {
+      "version": "3.1.14",
+      "sha256": "06f97c065cc977cbec2f13ffc9bc9d3b92fef485431fcb370a269de69532ef51",
+      "verified_and_extracted": true,
+      "executed_in_github_actions": false
+    },
+    "image": {
+      "id": "sha256:dfb898fa83a3d0f3b96ddc0d014b926f131ed1eb47e1f56bc525f857f8a7f707",
+      "platform": "linux/arm64",
+      "uid": 65532,
+      "browser_route_and_wasm_served": true,
+      "served_wasm_bytes": 2286620,
+      "wasm_sha256": "777cf1a101d6e2441bef9be736db33cdd5bfa28e2060cf4033af7532c2493315",
+      "portfolio_as_of_slot": 197,
+      "only_winner_notified": true,
+      "unregistered_higher_bids_rejected": 2,
+      "income_atoms": "5700000",
+      "positions": [
+        {
+          "address": "5fKp34Mipc7J5Czo1TjEBuC7maGRfdbNLiKEUxGHpPXV",
+          "kind": 1,
+          "outcome": 2,
+          "premium": "2850000",
+          "opened_signature": "4hfSgbB4GGQFUQRwmQiZCSAytDHuqbzFnWEtZzeWTjtdoXzkN1CV27Yryp1WpPA1tK64iE35CuvFdcPgz9jki7i8",
+          "settled_signature": "4YdGhZrnUwLyXdXusPnGRFDBHiYQudHK4XagPwsPUg43Gqdfov5xBR4MgtC7fZzP5bmXQoNkmhrLhHyso2jS393G",
+          "entry_spot": {
+            "price": "150000000",
+            "observed_at": 1794612076
+          }
+        },
+        {
+          "address": "2EAQs3Gh9yWopV4hFQMF98Q9YjZsuwZEUfBaHLaM4oik",
+          "kind": 0,
+          "outcome": 2,
+          "premium": "2850000",
+          "opened_signature": "3GMyoMoSyhVzkim5ZpUneNPsQc2qkFD2uDz5MMwfh2CDGbEryDLn98gw5YULLraJxRZAjmZ96Uz29eaJSbnzk2eX",
+          "settled_signature": "Tsp2hcNod6tkF9ruzpA5RzsUGML5KKMPkaGcMhabvQsBPwufDutjabxZdvwtkBzKY7N6L2USvdSagKXGsXqZHEP",
+          "entry_spot": {
+            "price": "150000000",
+            "observed_at": 1794612073
+          }
+        }
+      ]
+    }
+  },
+  "latest_rfq_smoke": {
+    "command": "bash scripts/local-smoke.sh rfq",
+    "as_of_slot": 174,
+    "income_atoms": "5700000",
+    "only_winner_notified": true,
+    "unregistered_higher_bids_rejected": 2,
+    "positions": [
+      {
+        "address": "Di7cm9JvuyQE3Z6foXKoyMJdvFDjCYYjprgy2rgWrjch",
+        "kind": 1,
+        "outcome": 2,
+        "premium": "2850000",
+        "opened_signature": "4Fg4WMGX8bbGzmvVQUCbEaByFW42QgE5aWDWvjYbedbEhuFrA5eTztZ8u12NqHU8Kh8Juft265kHNS7UXLTCGYan",
+        "settled_signature": "2Q9y4C8bwmGtpeQt9cpeQMsKsWcK36k7kSr3xHQfQCMstoHkdGgrLfLy4c4MaKqGhcFHypvQFZHJTJgCWjHaq4Jj",
+        "entry_spot": {
+          "price": "150000000",
+          "observed_at": 1794608849
+        }
+      },
+      {
+        "address": "CzjETC6FH9TqekjWr6h3fXJdR6kXxHEAt3tnG1HnMAwe",
+        "kind": 0,
+        "outcome": 2,
+        "premium": "2850000",
+        "opened_signature": "5mVg896yxzoq1Kj6bPwSLi9rRbuUu8M7XYnQpC1oSbdzquNjCV8MCcAK3NCde4PoMBm2LTiBy4DMY9xaJViSio35",
+        "settled_signature": "2rJdANuKRm6qgPwtTUcXmyDpQCDernwhUycgRrMCaQvyJW3x4FPC1gAVoAEYvGhWV6zmJi9ZnNgr9aNneu57DiTd",
+        "entry_spot": {
+          "price": "150000000",
+          "observed_at": 1794608847
+        }
+      }
+    ]
+  },
+  "weekly_market_defaults": {
+    "expiry": "2P7UpYgDks71tj7CzLiNWoXK2MQ8Vazu726xEHtqxpvN",
+    "initialize_expiry_signature": "3vSdLYn5YsbBSbRUjr5iHFGvUUnWJQ1QK8Xw62BQKXFD16Kedxo3ugiCWYLcCG4u3DLUyvtPiCA8y5gpM3BoGves",
+    "expires_at": 1795161600,
+    "fix_deadline": 1795248000,
+    "fix_window_seconds": 86400
+  },
+  "onchain_acceptance": {
+    "admin_rejected_non_executable_receiver": true,
+    "admin_invalid_receiver_error": "InvalidMarket",
+    "quasar_validator": {
+      "fee_payer": "CzpLMB5shLJMt16n84osNGCqx2Y1n751Xsk4bwHTddLg",
+      "expiry": "63wSqeKKLXssu467skAHNNtr49hS38bLdckUU5YANZEY",
+      "expiry_transition_signature": "4U2LPdmM3it366QPPWqGcaZgjUqZWwmvmvs1vgVvMkFtrjmkjaw6L9hixmp75wUvC4SoDEHQUK562StYA6Stjj9w",
+      "cases": [
+        {
+          "strategy": "Call",
+          "fill_signature": "4GHXx6epE8tYafdVfm5bAwHrS4K1ZZKajs2Mng3EGisDqjMVjTUtKoTuVsm1uxJmTdyeWQ7SLBb6S134v4133Ku2",
+          "position": "6MYZjyShUsTCVnHRPngB451Ca4EUgHPYh9f92NFy3aY9",
+          "outcome": "Assigned",
+          "settled_signature": "5vejUqXoF5xuTBhvWi5H1U3UM2EXTP4M3vrkRe7B1Xm5gjQ2YCYZcfPWm9Yc5LDEJRsZbQh8BFs2KQG1sTDhJ5wF"
+        },
+        {
+          "strategy": "Put",
+          "fill_signature": "5ujsRvt4j7mVumiY3PzHHHD9uhRGCh5vs3XxjxJrVj7mcA9LwpJ2tenLuLuttf2gehZHzpCZGAVhdiTQoAoBTYgn",
+          "position": "HGdBhozxTuBPTDuMhvyCyutvYkL1eBUSTQ3CmP461NaB",
+          "outcome": "Assigned",
+          "settled_signature": "2ghLWJJbm9NZuPjup6fFRgi5ta7FvzxMzrkZj8spM4DdWQQP9fAnwtFzJwHwEvL1Jni8Xobqs4SHtC6QBK1bgro2"
+        },
+        {
+          "strategy": "Call",
+          "fill_signature": "mf5eeEo4ynxTGGGTz2581nKfVEipqiFZcwevLnA92Nnej9z67CZYqTSbzCxJkdss9NCYCnuoUKiWhJf2aR5rJuy",
+          "position": "7ubWdrjHXuPArBgJ6k7KceNBorL6d7ef5t2FAnDFe9ta",
+          "outcome": "Expired",
+          "settled_signature": "ATX4BuyWsX7M9dWwwYpFCGEFFDasgJHDAVLQi4dcART1LtYqd7HGPobcatrDDGs9FF2Mz6BrA3eABKN9ynEsG1t"
+        },
+        {
+          "strategy": "Put",
+          "fill_signature": "2gfAC4SDbqRxoveLzniddf5STLCPnYMRqD1gTqnzK1myFxC7e1xWiGQidXsAM6yUrmbfzi46VC62E3RL77be4K9j",
+          "position": "2GL6NSELgbVAKXoMrp4UXj9VGKB8jpqV6XzBAi6rDrBx",
+          "outcome": "Expired",
+          "settled_signature": "3g6XWCLxargt5gu5tEiFxd88oWbqMyMNhQMTYKm39oAM8WJ9gycYbXaPbf9DAyK9Dneabv8JruC7YoHySv59eGV6"
+        },
+        {
+          "strategy": "Call",
+          "fill_signature": "5RQMMkaJn8NprMPZGZRukpfKUUdjD5dFzsgjQWPYM7fJrsGzz9rnenBTYFqLYvHoAneNru4Qw6tkXVHdfoWqS31z",
+          "position": "87DTLMZEe5xbcvJRobdspxQbV98RACqaTTH9xFgV51Zi",
+          "outcome": "Expired",
+          "settled_signature": "4sa8gTJnNu7984npaK9saemQPjYHFeusApUYAbEuFASA5AyYfCciWdkAR7UTwwA1JKBc9hbgJsZZDySbcqCg2YfK"
+        }
+      ],
+      "transaction_measurements": [
+        {
+          "bytes": 961,
+          "compute_units": 73053,
+          "confirmation_ms": 511,
+          "fee_lamports": 10000,
+          "label": "fill_call",
+          "signature": "4GHXx6epE8tYafdVfm5bAwHrS4K1ZZKajs2Mng3EGisDqjMVjTUtKoTuVsm1uxJmTdyeWQ7SLBb6S134v4133Ku2"
+        },
+        {
+          "bytes": 961,
+          "compute_units": 114397,
+          "confirmation_ms": 257,
+          "fee_lamports": 10000,
+          "label": "fill_put",
+          "signature": "5ujsRvt4j7mVumiY3PzHHHD9uhRGCh5vs3XxjxJrVj7mcA9LwpJ2tenLuLuttf2gehZHzpCZGAVhdiTQoAoBTYgn"
+        },
+        {
+          "bytes": 961,
+          "compute_units": 113616,
+          "confirmation_ms": 507,
+          "fee_lamports": 10000,
+          "label": "fill_call",
+          "signature": "mf5eeEo4ynxTGGGTz2581nKfVEipqiFZcwevLnA92Nnej9z67CZYqTSbzCxJkdss9NCYCnuoUKiWhJf2aR5rJuy"
+        },
+        {
+          "bytes": 961,
+          "compute_units": 112541,
+          "confirmation_ms": 509,
+          "fee_lamports": 10000,
+          "label": "fill_put",
+          "signature": "2gfAC4SDbqRxoveLzniddf5STLCPnYMRqD1gTqnzK1myFxC7e1xWiGQidXsAM6yUrmbfzi46VC62E3RL77be4K9j"
+        },
+        {
+          "bytes": 961,
+          "compute_units": 114033,
+          "confirmation_ms": 510,
+          "fee_lamports": 10000,
+          "label": "fill_call",
+          "signature": "5RQMMkaJn8NprMPZGZRukpfKUUdjD5dFzsgjQWPYM7fJrsGzz9rnenBTYFqLYvHoAneNru4Qw6tkXVHdfoWqS31z"
+        },
+        {
+          "bytes": 269,
+          "compute_units": 561,
+          "confirmation_ms": 255,
+          "fee_lamports": 5000,
+          "label": "fix",
+          "signature": "4U2LPdmM3it366QPPWqGcaZgjUqZWwmvmvs1vgVvMkFtrjmkjaw6L9hixmp75wUvC4SoDEHQUK562StYA6Stjj9w"
+        },
+        {
+          "bytes": 706,
+          "compute_units": 56538,
+          "confirmation_ms": 513,
+          "fee_lamports": 5000,
+          "label": "settle_call_missing_destination",
+          "signature": "5vejUqXoF5xuTBhvWi5H1U3UM2EXTP4M3vrkRe7B1Xm5gjQ2YCYZcfPWm9Yc5LDEJRsZbQh8BFs2KQG1sTDhJ5wF"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 35505,
+          "confirmation_ms": 511,
+          "fee_lamports": 5000,
+          "label": "settle_put",
+          "signature": "2ghLWJJbm9NZuPjup6fFRgi5ta7FvzxMzrkZj8spM4DdWQQP9fAnwtFzJwHwEvL1Jni8Xobqs4SHtC6QBK1bgro2"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 28000,
+          "confirmation_ms": 509,
+          "fee_lamports": 5000,
+          "label": "settle_call",
+          "signature": "ATX4BuyWsX7M9dWwwYpFCGEFFDasgJHDAVLQi4dcART1LtYqd7HGPobcatrDDGs9FF2Mz6BrA3eABKN9ynEsG1t"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 27997,
+          "confirmation_ms": 506,
+          "fee_lamports": 5000,
+          "label": "settle_put",
+          "signature": "3g6XWCLxargt5gu5tEiFxd88oWbqMyMNhQMTYKm39oAM8WJ9gycYbXaPbf9DAyK9Dneabv8JruC7YoHySv59eGV6"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 28184,
+          "confirmation_ms": 256,
+          "fee_lamports": 5000,
+          "label": "settle_call",
+          "signature": "4sa8gTJnNu7984npaK9saemQPjYHFeusApUYAbEuFASA5AyYfCciWdkAR7UTwwA1JKBc9hbgJsZZDySbcqCg2YfK"
+        }
+      ]
+    },
+    "timeout_validator": {
+      "fee_payer": "696jpLMPTQ93w1KUCRACSqcPqSXimoN627ihb3mr7GsA",
+      "expiry": "Hj2bRSKr4rztnipJhPLmjksoG6XVGiuYj7bSmUjDx9K1",
+      "expiry_transition_signature": "4heykS6ES5fz6Jyb81vvr68jTQqM6tFjBvoWFbkrYfhNYAzK6zNgrEG48GSaacdh5zExjD8MbEhzXSbBLUFjfLyW",
+      "cases": [
+        {
+          "strategy": "Call",
+          "fill_signature": "3Vy7Fg3Kidxw6aJY86YB9J6KHYuMtfCBBs1kGG2nRJyARYPZwWTBAPoWoNHYMjxCBRDBcBTrXA3ZveNTEJXa8hyD",
+          "position": "DYM3mwmp5o9XSJ7MRt3h2Em62Z9HhL2sVvYUt3RHKDka",
+          "outcome": "NoFix",
+          "settled_signature": "4vYnsnJb7wc1gMAGujwy5ERTFJtqqai4wdTM26yw9v1SkrBfwCubiLv3Aekn5VqPWVNqUZov2WF7nnipbPXbdgVy"
+        },
+        {
+          "strategy": "Put",
+          "fill_signature": "tDgY1jhb7XyB2Tcfb1okU3n2X37PAQWyqKBfaaVukFm7Z2S53iaWEajwGHsTPwfogPyiArakeqoifuCSfk2T5RA",
+          "position": "2XpzANd235yaCAUML3cLGhSTHWz52Lop4G6hBMuWhe9H",
+          "outcome": "NoFix",
+          "settled_signature": "523S1FAA6mGgxNVTJTuB9WWrddGsctetv9PBufu39k3UFGA74ytErjGaXJYTWb2N5TmhJqN8tPH2JnwZK7C7QT9r"
+        }
+      ],
+      "transaction_measurements": [
+        {
+          "bytes": 961,
+          "compute_units": 114068,
+          "confirmation_ms": 255,
+          "fee_lamports": 10000,
+          "label": "fill_call",
+          "signature": "3Vy7Fg3Kidxw6aJY86YB9J6KHYuMtfCBBs1kGG2nRJyARYPZwWTBAPoWoNHYMjxCBRDBcBTrXA3ZveNTEJXa8hyD"
+        },
+        {
+          "bytes": 961,
+          "compute_units": 110702,
+          "confirmation_ms": 512,
+          "fee_lamports": 10000,
+          "label": "fill_put",
+          "signature": "tDgY1jhb7XyB2Tcfb1okU3n2X37PAQWyqKBfaaVukFm7Z2S53iaWEajwGHsTPwfogPyiArakeqoifuCSfk2T5RA"
+        },
+        {
+          "bytes": 203,
+          "compute_units": 203,
+          "confirmation_ms": 545,
+          "fee_lamports": 5000,
+          "label": "mark_no_fix",
+          "signature": "4heykS6ES5fz6Jyb81vvr68jTQqM6tFjBvoWFbkrYfhNYAzK6zNgrEG48GSaacdh5zExjD8MbEhzXSbBLUFjfLyW"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 26054,
+          "confirmation_ms": 766,
+          "fee_lamports": 5000,
+          "label": "settle_call",
+          "signature": "4vYnsnJb7wc1gMAGujwy5ERTFJtqqai4wdTM26yw9v1SkrBfwCubiLv3Aekn5VqPWVNqUZov2WF7nnipbPXbdgVy"
+        },
+        {
+          "bytes": 632,
+          "compute_units": 25686,
+          "confirmation_ms": 255,
+          "fee_lamports": 5000,
+          "label": "settle_put",
+          "signature": "523S1FAA6mGgxNVTJTuB9WWrddGsctetv9PBufu39k3UFGA74ytErjGaXJYTWb2N5TmhJqN8tPH2JnwZK7C7QT9r"
+        }
+      ]
+    },
+    "recorded_fix_retained_after_rejected_replacement": true
+  },
+  "clean_checkout": {
+    "temporary_git_tree": "5c41e7537fcf15247a0ab1f89383c5e7f85efab7",
+    "source_modified_by_build": false,
+    "host_rust": "1.96.1",
+    "agave": "3.1.14",
+    "platform_tools": "v1.52 locally mounted",
+    "checks_passed": [
+      "generated Rust client",
+      "rustfmt",
+      "workspace tests",
+      "native and WASM Clippy",
+      "quasar build",
+      "quasar test --no-build",
+      "Dioxus release with local wallet"
+    ],
+    "maker_subscriptions": 3,
+    "served_wasm_bytes": 2261669,
+    "served_wasm_sha256": "86395536baa0e4aac373bea23405ca4ca36ac855b66511c3ae21e1cb216a904f",
+    "settled_put": {
+      "fill": {
+        "fill": "4s49ysWxM2k4mWtio3PRz8jvwzD8TRuPknmKxdqU3hJdFKarJVzaGVmz7XUM4L27fA9XmgLW2BrExW9uJ3VoFUHF",
+        "maker": "9VqGXGuj3n4VH1MWEHnqmFXY123JuPS6qWqmJBRbhHMH",
+        "position": "AtmtwiUBURVic2kkgp35aJbenD8YQwXWwKtPyVBFvm9z",
+        "premium": "2831000",
+        "rfq_id": "54575662869517122842332380956498796807"
+      },
+      "position": {
+        "address": "AtmtwiUBURVic2kkgp35aJbenD8YQwXWwKtPyVBFvm9z",
+        "writer": "2iXtA8oeZqUU5pofxK971TCEvFGfems2AcDRaZHKD2pQ",
+        "maker": "9VqGXGuj3n4VH1MWEHnqmFXY123JuPS6qWqmJBRbhHMH",
+        "expiry": "9GJoSc8kMzUUu613NJnr7RDKRsaGiVpAHDLhbCT4t223",
+        "expires_at": 1794610642,
+        "kind": 1,
+        "outcome": 2,
+        "strike": "149000000",
+        "quantity": "1000000000",
+        "strike_amount": "149000000",
+        "premium": "2831000",
+        "opened_at": 1794610573,
+        "settled_at": 1794610660,
+        "opened_signature": "4s49ysWxM2k4mWtio3PRz8jvwzD8TRuPknmKxdqU3hJdFKarJVzaGVmz7XUM4L27fA9XmgLW2BrExW9uJ3VoFUHF",
+        "settled_signature": "TjwkGuruioTVbneYPxSAJ1QyX9VxpUT6izbf24TRiUqQkUWbr4oVWJLDzfVBTmLLMJYmYQfGwVoEvkd5brsR5VW",
+        "entry_spot": {
+          "price": "150000000",
+          "observed_at": 1794610572
+        },
+        "as_of_slot": 264
+      },
+      "expiry": {
+        "status": 1,
+        "fix": {
+          "price": "150000000",
+          "observed_at": 1794610642
+        }
+      }
+    }
+  },
+  "expiry_drain": {
+    "positions": 32,
+    "writer_wallets": 1,
+    "maker_wallets": 1,
+    "execution_after_expiry_seconds": {
+      "first": 20,
+      "p95": 41,
+      "last": 41
+    },
+    "positions_per_second_from_expiry": 0.78,
+    "execution_slots": 4,
+    "income_atoms": "9120000",
+    "settlements": [
+      {
+        "position": "Hmdz3bda3kXhxqd3MH9mRL44DFvjcw8LoiKuFLYSnKbE",
+        "fill_signature": "5gPiA7Z5MP3ZTiEJA5ybWp3yjm7CQrWVhHtwc2qZznkPVbWEJpGtyoRWSvzodd3G1x23xHraaEWiVJAK76HHtsts",
+        "signature": "2W9UWRfAXaoXQkuGJywS7AePZUtPgjVjGvT1Q4h7hfbb13HDXj5dP4BSoTASSiGPW8FAjbPrYWPBTGKYCjuSdXzw",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26351
+      },
+      {
+        "position": "HSgMnXsqZW4w5o63Ra7wU7nNiVzAanX9uuViTWe7ste5",
+        "fill_signature": "o1m3wMBwDMx3H9SDhtrsPXZKBdbPgx87TvGBhYjcLAHdCF4ZzQFj1yEMEKnPv4EJZ4T2JcyZDJnHJDmXAqZPu16",
+        "signature": "5kSphycYACYbLqXwU9hpszAGnxq6AypBCuMRgeGo37mp7ExUww9HaEnWy7bobRTHQDCVWc3AegTdiEBm898U6ju8",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25805
+      },
+      {
+        "position": "E1JBJwuagqRsqfHUJvvJm7mkrY26fXMNXwG5mQm77SmQ",
+        "fill_signature": "4uMZWUaVr1o62zQL3g9XjFaRp6fYjwfJZxGn1RwiSKPYZLiehD2MEkPUn7hbytcKfhK61GjqNMY569cDyFKo55n4",
+        "signature": "67r9XZwdkbXkm1yHnW55fA9uKunbMG1a4qttHPm4FUxzTRDjo2gJtf6ohHET52exHpkXPAkSYDDbMYvWMaPCLbML",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26351
+      },
+      {
+        "position": "DEEpC6odupFEpek6mTUdgyTWjx2MSYH2ZnksGN9FCDW7",
+        "fill_signature": "4cNQ2W46pWFmZH6NmPcZzzifDnVhLtNrBAKKhNz5yZZYARjkpDkaDtU53hgSMG2CFLgcuv8GTxZJhbrakdAhACGE",
+        "signature": "3spkyByLnM3sSAtpYrUBUUhaQerd7bg7RzqmdoCEq5ombChh7WndFKT73iqBxB9gdDD7EU9NZXR7UBvbRvbaWihW",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25988
+      },
+      {
+        "position": "CqaUarDA2fLU2xA6vAZsXACDKuk9y1kEF1PwtSBfB2pU",
+        "fill_signature": "3pLtx5upix2A2vgWcRdJwXCyKrzWPrzhn9mCuKLn2KuFMm4XDZojQquqrM6WztNvKzCj7N5upAgdNnt2z8tNHdXw",
+        "signature": "3kF4Q8T7HMRWbRJny14ZdpeTvmvUWvBkZjMfojSp7uKnYFArcPKbzh9hoN8VajRCoxeKXcutdz4p1caNzEE8mWyT",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25802
+      },
+      {
+        "position": "CmD3pQpXyT38ZN1MGjJSv4U72NKptYhDhX6qcxRhmXqn",
+        "fill_signature": "21uJpAxNNRRnBjLPwB8VMRxh78xpcy7fK56m27Nnf9UiQgPPjqmuENSpBYZYdLdTuDoDeJGGm1UNxxNaKFVNCGSz",
+        "signature": "5pLNLNVoUZ4fjzueTGrMhShtxG7LertcLVLLWuZ4Q9o4icB52p7kD8z3MRFCngs3JyD6howsnGDjTPtLaLFQPNmw",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25622
+      },
+      {
+        "position": "Cj8Qnr9T5JiKRDHCX6rwbtDUs5XFzuLRztcas7k4uSad",
+        "fill_signature": "4D2qiMFvW46DReYUqcmWAn5rXE7c4N6yX5i86oQKWSoZzsEJe7WRxkzgLGttXRErAEgXRU9RK6CgeCfs5sN9hYdV",
+        "signature": "5pQ3RutQYPsSfZZjTVK71yxtmEZeT5UwfDK4MGkfDUJ7UxwgEcE3iDTYNPB25NvAazX6WAe6j5ow3XpkV7NfD3br",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25622
+      },
+      {
+        "position": "CgZpY7G1LEd2uZU1YUP8cMaisa6uJbxNTDehaP8JHViA",
+        "fill_signature": "4SM8nWSmjqrCuZMuv7yA8rNaPohs8XxyPmqQHEhvTMmU1tPaxatS7ZotFMCyELHHnVWohmyWNq1oNzk81nsRw2VW",
+        "signature": "2rqNPRcKoWJ7BRnvmxGAJzRceaYyJjUYspciwuNiAEXvZR9hTgDFpxoLeAfz2iBVfxQjFWgfYWUkzwwsG19uG3WL",
+        "slot": 239,
+        "settled_at": 1794611155,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26354
+      },
+      {
+        "position": "CWcHUqv5qgRnhZsTit4eLijMSHNKvd7o3PWAKPM9KeCz",
+        "fill_signature": "63DtAjvCjCBNP4ob7ZMJaHDJpv1iKfyPkFt86B57hq5wrf9mmoK9KwCDoEYBRKU8G6q48xAKmGfwrtpmtu6C6Wkb",
+        "signature": "33UAjVi4ceVwxVDKo9tfwp1Np4oSaQxrhLetqb6u7WrLJ9o9pJMBEQRj8apkU59Q9caTSE4wSMmXYwJjj8F6VuLt",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26351
+      },
+      {
+        "position": "BRXrMpCp8wm7ems1sjiv2uGNA28BbiAGk6Prf9NkvGpZ",
+        "fill_signature": "63qofgwi35mWgKnadvr5zD342pDRyp8ATgWtasQy4egfhAPyByKzq83F9BJPm8p3tu8sV4DsQq9vjE4rcARuCMC4",
+        "signature": "2PEseEPgdnnVwBbgwi3sc42ERtXGUw84fq4tDH8WyWyiBcE8bGb4aAUfy7bXGkVY3ScNRVBeqYCLAi3def6HGmwc",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25805
+      },
+      {
+        "position": "BGnynEFD64uMeduXMVZU3e9ockA41xLnhYg79pQHaTyt",
+        "fill_signature": "Y8nZT1RDVSK8e39dRH1YfCAKD9pTcUMZ4jETtyaTGjM7gtRYKYn4DYNayZ9anHNUQWBQ2YhRD7KYWgvN3RDGyvG",
+        "signature": "3YHg3AH4Hpve1XtS48raGVA3CDeAZaENu1suuSq99tMddBxak8YWryxVAUH1i4TeAXdcjXVxA5NuCXxRwbQ7NM45",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25988
+      },
+      {
+        "position": "BC4pGV7DQb6pAZ2Ym1QGoApQ6Qzy8WTPBNeyQtoszACL",
+        "fill_signature": "566gXoaD9AHw4kTyaca6drc5DFALyfeWugsZW2DnzYrzALbnodJc25RQBtaCuwfRT2eke1BAVYhR9yGvL83LfhbS",
+        "signature": "462bwPkeaQDbnCeCA7sYxnNiW1jDmMzvykgwHRw8rGqz8nqAv3Ues7Xgk3b8WEiM4TCQsBJwk685tVXQ6Ptw7mMa",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25988
+      },
+      {
+        "position": "AoFs7PLb19gpuxCniHpbbr9SVLLMoRKSpkyhAX4YemDA",
+        "fill_signature": "2xs2xZXqcvMa2Zfm9eLbXDJ6jpATguWZwxhbrrK2q4iYJT4gSo2GKcUbkLHPTsefhkMkTtC3qeRXgqVyFnaa4aJh",
+        "signature": "2gk6BfLApW2N34SmpbiE97ikLdF3vf1h2PZuvc696r7j7mFMgvTL9nYRyMAdHYnHUovThZTvFunni63X8dxR1zxo",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26534
+      },
+      {
+        "position": "AdHYDBKwqeJzxyWc2woHLPgJhQS1h7cMefQ3GLEmdd95",
+        "fill_signature": "5xRuNRV63dow2TqrXGqAuRzx3mBg2Dyo7KJpZn3KTPEWJ2Tg22eCbFEeotHTyc3hRL9GGmTGaXngZDejv25kGv6e",
+        "signature": "3v1HPEvbjrgPGGA4JcsfrADgWZTjVopwZgWZ5ynFj93EYeGnptR37k2VWdnGtxokcjrgi8CXaYPAmuVkmNLviDRK",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25802
+      },
+      {
+        "position": "AVx5vJ1HD3vW3GErwVs17U7TrG1ZRATBVFvaj93Gsirh",
+        "fill_signature": "WiedCjATcauBgUb24zrLLr97T5FFxXXVDtDnwJHyA3o3YJoFtik5XzCBo3nKznty3tKxnHy7L3M5wzuW217FonA",
+        "signature": "4C4dCU73y7dY9kubPTQt1rFUDrnxnSYRGuyw1CTg6YpdHnjGhFVWHdF5BTEmweLwc89K6eS81x5C4N6TJqzDKkB2",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25619
+      },
+      {
+        "position": "ATJ8KFcfyFwKhRjzZgcr5b68xDhB7SazD67hb7zX4M9C",
+        "fill_signature": "4JA391wcKsYynqTvSG24mw3MZwxx52EvLkJTK5WVE7bGQuzpH4iyu8k2YcLo4uhqYmQ9XpRxuSBNdPaoK6mJhbrH",
+        "signature": "5ombjJQDuerg3ZWYztgTMnsnssAbxuEN6G8SJkmX2adcKHGYUJWovrc1Yw7vYexZN7iv8Rbrtu1WewvzgytzyhyG",
+        "slot": 233,
+        "settled_at": 1794611152,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25805
+      },
+      {
+        "position": "A26VRixTnDKQdRV22hT3wXh3Jr6ehy95M71rw9oWTC5U",
+        "fill_signature": "2HCfDWCapq2dBkwVVTsMjssqyXLzr46ijqw5S4dkSPq9GjecvWz7r6UqyKskNNpgZC1HC3M5vQufMLYskAyfm3pM",
+        "signature": "3sCpnxuLrab2wZFbFsuW83n9icCRHQZ1mPkdxm24AMfsL4vYAoiq8g3xBmX8krLDDQMb46VxaxTiyHvbKvpXLb4S",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26168
+      },
+      {
+        "position": "9HdSWA8nPNukqzXcqQyBZA2zi65i2LfLJiDBKPBWhuUv",
+        "fill_signature": "i1RmXqKctmSMHGKUzdd4iNGnByk2zH5uDKGcM9LRPf2qSiUU2KRL62Tk8A9kghd45tvec9J3omeD4Zm1s4JJHCn",
+        "signature": "3NtkVcs9VmnEdi6cUmMgWruEoNnF8sVoqCRknVfCQnjPghUupMhU43AMnPEWLgGay33W1jpTE7MjQENgMpHADahj",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25985
+      },
+      {
+        "position": "8MH6cyofqXJ5M6pi7Guz6UYySDiMkKNqenm8dWoiM8X5",
+        "fill_signature": "2WgQHbDe7yih9d2gneX24vnxtk1U7DeRfgs895eDV9HyKKqUGT2HeoGCUXcQKbCmfHMNBWYrEWG8rXGS1XncNdNT",
+        "signature": "2WJ9qpU14GpgQgo86uhcHr8eRN6N2XWb9qmNfK8nKoUcyXoiteVW1cDpeL2PGGmdSPXj9qoV4xJh9GVW6nJdUxeS",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25622
+      },
+      {
+        "position": "8FW1yHyCJvfge5vydSpXnpEDnkRtc9NQYAzMuX9BjXvh",
+        "fill_signature": "3YFSgT35RJp8Y6RPGQyyz5VSC3tU6zgELjVnyrLfmRAPB1Ug2PF8fhYHgz8RvRbaFezm81n8Ame5F9ic8VrDCB14",
+        "signature": "4vkY5VfJMMUwuG61sqhGVnDyd2XAJbmNMoKkgVsGEm3egVsKj38JfW7tguxGqV6hzUM7CJkMAnJ6hyjuZzcWpE55",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25619
+      },
+      {
+        "position": "8CrBEPWeGhPiG6Zercr8T3Xpvpt26Ju8sb1aVwxCbZi5",
+        "fill_signature": "kDkJSeb7r6g6Cu46SLEi2kPNhRLN9hvcX3xP92VZxWnHAJAWw53vj5uMHi5AZBQdsnJQU2S28sxx8S2RmAvbVHu",
+        "signature": "f2w9cTYoKb1qzyhHVSPXrLYnAPKeSpqxfBj54yMdpSHWEAn3MiBKsCsyDPfnywakh5XBwfw13cVaKDWLuy3quCV",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26354
+      },
+      {
+        "position": "7BXxbpkDjwGLxz6evd9htEDmdTqW43s1MbSyKrTjArrp",
+        "fill_signature": "4XufNKdLxJoDKDY3oWfUdMM2Q5S2JZoiJWcjgp9kfNU3fsfJMS59sK76JazP7dtsVRvpJDXgrjGG1xXWNFL1TSt8",
+        "signature": "5awGWskUfR8WSVWsWDBJkUWhwC6rZYiwgCY7bLFBUQdQ4oqGGmaM92n9iyLzJaTrEWVKiWL45HHZi2iyiF4uHSbo",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 27086
+      },
+      {
+        "position": "6yQsnphXKVXhWyNgc7A8p2xjXFEbHqoDnjGZh4YXfV4j",
+        "fill_signature": "4WYL79ahzPqRo8eBwd46zWjtf893xkfrbnjLopR47xnLZb5M8i69tXTWPZSFfYBk7N31pfuji6UUo2YaboifZfhb",
+        "signature": "4e1bsYSjL7EsbsDWWx1rb6Fn1uDCkBjvn76QGdhkw7nSC6Wah1vvQKjEWKDcpJoh4dHFTzZb8a5WqQq4xHK3tHq9",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 27086
+      },
+      {
+        "position": "6RJa9nTfoLvdrG5B9z12Wjhe9tuLNw7cFr551bTE7idN",
+        "fill_signature": "38uA99JhgB3v2NT79NLK46Hg5YJ5VNMTq9ntdDcJXkED1MqbdgFXZ2bPrmmTgdHhEjCbZBMV97PAViTPRSfrpxDh",
+        "signature": "u1MwW3Hd7JMW2H6LVCQJAmbZjWtXkTtyPa7ErA8sQb4ru88rHQWrE4UUBi9aYe5tBLfpZCtDDPRCDfVUcjSrxex",
+        "slot": 202,
+        "settled_at": 1794611137,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25985
+      },
+      {
+        "position": "6JyYkuBMQrSAuh1nT7TQBrVnq95tKVqMSHWooiF2kJaf",
+        "fill_signature": "3f7HYsWAQjqhXRkt7PW7V5LkpUjhHiGzvBnWH3eHWkHkaLdSVQZc5pDtaAqpsz1rR4L9xVyiyFSc7WWcT6qSGHCV",
+        "signature": "3XYar1Ygqrds8CaH5VgkuZ8syBamJEZyHeA9mEdi8LHidNWkJ7CFqqY5yTXPtPf6coRpEnYtZHMhR4MgmagASLKs",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25985
+      },
+      {
+        "position": "5NdzQxjLWF7ouXvRcynqhDPHEavLLMjdBiCA6KSGZs7L",
+        "fill_signature": "4ArC2xvTAgAZCRmTyPAPCczGTDzq6G3U31dJdNbujatXs9p8q4H74nxfPf7dunj3KmPU9DjNj2QiKs1LoaD69KKa",
+        "signature": "3gwmm52b9Lhd2jk5jMAHuADAG7ztKsFFPaC8BD6pu9xDffdQW6YXa2oRJKGxV7xV2CcK3vErnxCaKkCaF6HWXYJR",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25988
+      },
+      {
+        "position": "5NYygmg9Kfi5zVR4TzbdkvNEDj42i5VigD5m4jXbCJmL",
+        "fill_signature": "5PLYUcYyqszYuLwfczBB5JLYrZv69QCFseu1ZWCMNSVToSkkCQwwbCnzSdFPhP34PREMGDoLKDYbHWwyeTRrWgNy",
+        "signature": "3ShkGFnG7FvDmpufBkM4EF2nJXCR3YtUCvwLspfrfJ9P24wgx9orReA2cByw8ssa3KCVfewyowRVp51YixgHPG4i",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26537
+      },
+      {
+        "position": "4omMkxmDAM9JZrnGK3GiB3tQByfgmaX195X92bXtDH8f",
+        "fill_signature": "Nu9KM6nzfVkFExKt1rrqXx1oFjoov1zYZBoeiksWtxFx86fegiB1duf4qdHwDNZEeSdjGFhJgfQUMJyaDWJk51D",
+        "signature": "3rGJMQPFh4UXpDnz5EPV2CFxVKDLxpsTt81doZSa4VN5zCWjq2pVNbvz6jgoKm6JW17gcZcipB3mU5yXhnr9K79t",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25985
+      },
+      {
+        "position": "4RKktgiHCe5jA5ztDbp73GQTiDspSPCHPcBWLuMxfPKp",
+        "fill_signature": "A9UyJjuzfrbt8USSJPAb9tcjLAvHmkZTwRBxbPU8Dof8VUQqtcbUaZ58rrra55wAarsg9AekzGDpDAbTKpWZGQD",
+        "signature": "5MPEQsDBw8UQj9SdCEjALd38WEszXjmXrcERz1CxxFErujZe6PCszVvggJnY84r9DwM4ECqiGrk5fUZ6y6mHDMjP",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25802
+      },
+      {
+        "position": "2iAhhNZcvsZQTjERvTQiXNDhePKjExd3kT1zuA6evj3K",
+        "fill_signature": "4JndSdxPfkupgeVCbmDoChGJ4aCinKLhnjQJBqw7L216j4s4TBNJLFEmuKstaLpSpbwJWiWmKihkUNBNgoxjLi6n",
+        "signature": "646EFg2JJAo6qdX1qKRpHRfhTdR7Kcxy1K3GhSfyjmVk6M3pV5E1dJTFRGCQdv27C1C9RGrvyLDonWzy3VBrsKBU",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25622
+      },
+      {
+        "position": "2LEcUjrxhMKLcQAMHC3HTfJLyN4N9J1pF2Uuh5WGsD5J",
+        "fill_signature": "4KNCbmTipmazBPMzHanCr8S3twsYWZaSeCrdLK1EvuXZf79Su3T1MHP4ZHkNL89WyBjjjf6zfareru56jAAkSQZU",
+        "signature": "2B15HW99fWQQKUtShdDsNnEwnmhnCX3ieXmQB7S2BSyQU58jLvzMpUbjhzMsCFugV13DuiXouJvgBKYFpNPaNr2F",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 25802
+      },
+      {
+        "position": "1WEw1QLrMsC6Cbz1KiqUymLkGM6VMtfxf1QqhQr7LKh",
+        "fill_signature": "HWd7N7bDawTq7bDzh9vmFtpDvSkUSBGq7m3mpbfBoLdQPWZfPXJ5U5NMiFUUwmrLNDGVYws9vbKVAwkTCEwxDj1",
+        "signature": "2YeBhnGT7Mk9c3odbxWtBNvgd8b9kPwfVRkTUGke3TyP9prx9ToWXCaKsxs7Z8QQGr85CgUzdctHyjdDUZRMnFFb",
+        "slot": 196,
+        "settled_at": 1794611134,
+        "bytes": 632,
+        "fee_lamports": 5000,
+        "units": 26021
+      }
+    ],
+    "compute_units_range": [
+      25619,
+      27086
+    ]
+  }
+}
